@@ -2,19 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>HTML CSS Register Form</title>
+    <title>Registration form</title>
     <link rel="stylesheet" href="style.css">
-<style>
-body {
-  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F74%2F47%2Fe1%2F7447e191a62e2710733da6fc0e0ee61a.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F513691901246220964%2F&tbnid=3rYIOwVL9BAm1M&vet=10CBgQxiAoBmoXChMIsLDtto3i6wIVAAAAAB0AAAAAEAw..i&docid=cVQWfkUhe49YhM&w=736&h=1104&itg=1&q=couples&client=opera&ved=0CBgQxiAoBmoXChMIsLDtto3i6wIVAAAAAB0AAAAAEAw');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
+
   </head>
   <body>
-    <form class="signup-form" action="/register" method="post">
+    <form class="signup-form" action="/register" method="post"><button onclick="display()">Click to Set background image</button>
+      <script>
+         function display() {
+            document.body.style.backgroundImage = "url('https://www.tutorialspoint.com/html5/images/html5-mini-logo.jpg')";
+            document.body.style.backgroundRepeat = "no-repeat";
+         }
+      </script>
+      
 
       <!-- form header -->
       <div class="form-header">
